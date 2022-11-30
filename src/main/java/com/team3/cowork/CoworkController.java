@@ -1,4 +1,4 @@
-package com.team3.groupware;
+package com.team3.cowork;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -10,7 +10,7 @@ import com.team3.model.UserDTO;
 
 
 @Controller
-public class GroupwareController {
+public class CoworkController {
 
 	@Autowired
 	private UserDAO dao;
