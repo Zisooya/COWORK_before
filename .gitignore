@@ -28,12 +28,9 @@ hs_err_pid*
 
 /build/
 *.iml
-pom.xml
-root-context.xml
-servlet-context.xml
-log4j.xml
 .idea
 /target/
+*.xml
 # Eclipse m2e generated files
 # Eclipse Core
 .project
@@ -41,3 +38,5 @@ log4j.xml
 .classpath
 .settings
 .springBeans
+
+
