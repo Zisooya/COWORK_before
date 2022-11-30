@@ -25,6 +25,7 @@ hs_err_pid*
 # 개인 설정 파일
 *.properties
 *.MF
+
 /build/
 *.iml
 pom.xml
@@ -35,6 +36,7 @@ log4j.xml
 /target/
 # Eclipse m2e generated files
 # Eclipse Core
+.project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 .settings
