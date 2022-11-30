@@ -25,7 +25,11 @@ public class CoworkController {
 		model.addAttribute("Test", dto);
 		return "testDB";
 	}
-	
+
+	@RequestMapping("login.do")
+	public String login(Model model) {
+		return "login";
+	}
 	// ProjectDAO 변수 생성 _ 세건
 		@Autowired
 		private ProjectsDAO dao_projects;
