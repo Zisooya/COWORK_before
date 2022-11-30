@@ -17,6 +17,12 @@
 	<typeAliases>
 		<typeAlias type="com.team3.model.UserDAO" alias="userDao"/>
 		<typeAlias type="com.team3.model.UserDTO" alias="userDto"/>
+		
+		<!-- *************** 세건 *************** -->
+		<typeAlias type="com.team3.model.ProjectsDAO" alias="projectsdao"/>
+		<typeAlias type="com.team3.model.ProjectsDTO" alias="projectsdto"/>
+		<typeAlias type="com.team3.model.Main_ProjectsDTO" alias="maindto"/>
+		
 	</typeAliases>
 
 </configuration>

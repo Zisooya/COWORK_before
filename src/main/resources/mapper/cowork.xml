@@ -17,4 +17,11 @@
  		select * from member_test
  	</select>	
  	
+ 	<!-- *******************세건**********************-->
+ 	<select id="all" resultType="projectsdto">
+		select * from projects order by project_start desc
+	</select>
+	<select id="getMain" resultType="maindto">
+		select * from main_project order by main_no
+	</select>
  </mapper> 
