@@ -24,11 +24,12 @@ hs_err_pid*
 
 /build/
 *.iml
-*.xml
-*.properties
+pom.xml
+root-context.xml
+servlet-context.xml
+log4j.xml
 .idea
-target
-/out/
+/target/
 # Eclipse m2e generated files
 # Eclipse Core
 .project
